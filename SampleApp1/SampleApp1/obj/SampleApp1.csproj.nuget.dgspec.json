@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cogdotnet1693\\source\\repos\\SampleApp1\\SampleApp1\\SampleApp1.csproj": {}
+    "D:\\Gitsoln\\Training\\SampleApp1\\SampleApp1\\SampleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cogdotnet1693\\source\\repos\\SampleApp1\\SampleApp1\\SampleApp1.csproj": {
+    "D:\\Gitsoln\\Training\\SampleApp1\\SampleApp1\\SampleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cogdotnet1693\\source\\repos\\SampleApp1\\SampleApp1\\SampleApp1.csproj",
+        "projectUniqueName": "D:\\Gitsoln\\Training\\SampleApp1\\SampleApp1\\SampleApp1.csproj",
         "projectName": "SampleApp1",
-        "projectPath": "C:\\Users\\cogdotnet1693\\source\\repos\\SampleApp1\\SampleApp1\\SampleApp1.csproj",
+        "projectPath": "D:\\Gitsoln\\Training\\SampleApp1\\SampleApp1\\SampleApp1.csproj",
         "packagesPath": "C:\\Users\\cogdotnet1693\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cogdotnet1693\\source\\repos\\SampleApp1\\SampleApp1\\obj\\",
+        "outputPath": "D:\\Gitsoln\\Training\\SampleApp1\\SampleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -11,7 +11,7 @@ namespace SampleApp1.Controllers
         public static List<Student> Students = new List<Student>();
         public static List<Department> Departments = new List<Department>();
         [HttpGet]
-        [Route("GetStudentInfo")]
+         [Route("GetStudentInfo")]
 
         public Student GetStudent(int Id)
         {
