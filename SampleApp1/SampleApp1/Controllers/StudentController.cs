@@ -6,6 +6,7 @@ namespace SampleApp1.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Produces("application/xml")]
     public class StudentController : ControllerBase
     {
         public static List<Student> Students = new List<Student>();
