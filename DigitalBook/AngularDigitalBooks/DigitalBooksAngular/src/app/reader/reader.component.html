@@ -1,0 +1,59 @@
+<div>
+    <h3 style="text-align:center">
+      {{title}}
+    </h3>
+  
+    <div class="form-group" style="padding-left: 30%;padding-right: 30%;">
+         <label style=text-align:left for="">Title</label>&nbsp;
+        <input style=text-align:left class="form-control form-control-lg" type="text" name="title" placeholder ="Enter Title">
+      </div>
+      <br>
+      <!-- <div class="form-group">
+        <label for="">Card Name</label>
+        <input type="text" name="cardName" [(ngModel)]="card.cardholderName">
+      </div> -->
+      <div class="form-group" style="padding-left: 30%;padding-right: 30%;">
+        <label for="">Author</label>&nbsp;
+       <input class="form-control form-control-lg"  type="text" name="title" placeholder ="Enter author name">
+     </div>
+     <br>
+     <div class="form-group" style="padding-left: 30%;padding-right: 30%;">
+        <label for="">Publisher</label>&nbsp;
+       <input class="form-control form-control-lg" type="text" name="title" placeholder ="Enter Publisher">
+     </div>
+     <br>
+     <div class="form-group" style="padding-left: 30%;padding-right: 30%;">
+        <label for="">Published Date</label>&nbsp;
+       <input class="form-control form-control-lg" type="text" name="title" placeholder ="Enter Released Date">
+     </div>
+   <br>
+   <div class="form-group" style="padding-left: 44%;padding-right: 44%;">
+   <button mat-button class="btn btn-info btn-lg btn-block" (click)="getAllBooks()" > Search </button>
+ </div>
+  </div>
+  <hr>
+  <div class="results" style="text-align:center">
+      <router-outlet></router-outlet>
+  </div>
+  <div class="cards-grid">
+    <div class="card-row">
+        <div class="card-row-details">
+            <table class="table table-bordered">
+                <thead class="thead-light">
+                    <th>Book Name</th>
+                    <th>Price</th>
+                    <th>Publisher</th>
+                    <th>PublishedDate</th>
+                </thead>
+                <tbody *ngFor="let book of books">
+                    <tr>
+                        <td>{{ book.bookName }}</td>
+                        <td>{{ book.price }}</td>
+                        <td>{{ book.publisher }}</td>
+                        <td>{{ book.publishedDate }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </div>

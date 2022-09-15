@@ -1,0 +1,59 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/validate",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "POST",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44324
+        }
+      ],
+      "UpstreamPathTemplate": "/validate/TokenValidation",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserTables",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "Get",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44306
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserTables/GetUserRecords",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Books",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "Get",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44348
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Books/GetBookRecords",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Purchases",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "Post",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44321
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Purchases/PostPurchaseRecords",
+      "UpstreamHttpMethod": [ "Post" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44359"
+  }
+}

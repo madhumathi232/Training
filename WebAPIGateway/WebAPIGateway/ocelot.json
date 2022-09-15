@@ -1,0 +1,26 @@
+{
+  "Routes": 
+  [
+    {
+      "DownstreamPathTemplate": "/Weatherforecast",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7107"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/values",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "GatewayAuthenticationKey",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7120"
+  }
+}

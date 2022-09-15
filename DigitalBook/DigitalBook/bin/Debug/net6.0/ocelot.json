@@ -1,0 +1,21 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Books",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7147
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Books/GetBooks",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+ 
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7074"
+  }
+}

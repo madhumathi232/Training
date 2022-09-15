@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "hoG3TmzMXjBANhKYwuJAF57I02AEtRCGfrevMA/pgnU=",
+  "Source": "AuthorService",
+  "BasePath": "_content/AuthorService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\cogdotnet1693\\source\\repos\\DigitalBook\\DigitalBook\\DigitalBook.csproj",
+      "Version": 2,
+      "Source": "DigitalBook",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

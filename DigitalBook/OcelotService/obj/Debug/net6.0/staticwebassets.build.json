@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ySITmD1OoQit6p3JbGZ14+xd5Txrhnn9m3+UL6RGBSQ=",
+  "Source": "OcelotService",
+  "BasePath": "_content/OcelotService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
